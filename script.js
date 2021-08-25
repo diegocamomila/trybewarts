@@ -1,5 +1,5 @@
 const buttonLogin = document.getElementById('login-button');
-const inputEmail = document.getElementById('input-email');
+const inputEmail = document.getElementById('email-login');
 const inputPassword = document.getElementById('input-password');
 const login = 'tryber@teste.com';
 const password = '123456';

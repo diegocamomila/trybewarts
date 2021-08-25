@@ -27,7 +27,7 @@
 
 }
 
-#input-email {
+#email-login {
   border-radius: 3px;
   height: 20px;
 }
@@ -51,14 +51,14 @@
   margin-bottom: 10px;
 }
 
+main {
+  display: flex;
+}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
-}
-
-main {
-  display: flex;
 }
 
 
