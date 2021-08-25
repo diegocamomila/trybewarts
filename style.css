@@ -44,16 +44,24 @@
 }
 
 #trybewarts-header-title {
+  font-size: 3em;
   color: white;
   align-self: center;
   margin-left: 15%;
+  margin-bottom: 10px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
 main {
   display: flex;
 }
 
-#evaluation-form {
-  display: flex;
-  width: 675px;
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
