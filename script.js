@@ -5,6 +5,8 @@ const login = 'tryber@teste.com';
 const password = '123456';
 const agreement = document.getElementById('agreement');
 const submitButton = document.getElementById('submit-btn');
+const textArea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
 
 function verifyLogin() {
   if (inputEmail.value === login && inputPassword.value === password) {
@@ -25,3 +27,11 @@ function verifySumbit() {
 }
 
 agreement.addEventListener('click', verifySumbit);
+
+function decrement() {
+  const startCount = 500;
+  const currentValue = startCount - textArea.value.length;
+  counter.innerText = currentValue;
+}
+
+textArea.addEventListener('keyup', decrement);
