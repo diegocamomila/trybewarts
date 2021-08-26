@@ -74,10 +74,7 @@ function getCheckBox() {
   let checkBoxForm = 'Matérias: ';
   for (let index = 0; index < checkBox.length; index += 1) {
     if (checkBox[index].checked) {
-      if (index > 1) {
-        checkBoxForm += ', ';
-      }
-      checkBoxForm += `${checkBox[index].value}`;
+      checkBoxForm += `${checkBox[index].value}, `;
     }
   }
   return checkBoxForm;
